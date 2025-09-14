@@ -1,0 +1,54 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.calc-container {
+  display: grid;
+  gap: 3px;
+  justify-content: center;
+  padding: 10px 0px;
+}
+
+.calc-div {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  gap: 4px;
+}
+
+.btn-div {
+  padding: 4px;
+  .btn {
+    border: 0;
+    border-radius: 16px;
+    display: flex;
+    height: 28px;
+    width: 28px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .lgrey {
+    background-color: lightgrey;
+  }
+
+  .dgrey {
+    background-color: grey;
+    color: white;
+  }
+
+  .orange {
+    background-color: orange;
+  }
+}
+
+.input-div {
+  background-color: grey;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  padding: 4px;
+  border-radius: 4px;
+  margin-bottom: 4px;
+}
