@@ -1,2 +1,1 @@
-# calculator_2
-Created with CodeSandbox
+A lightweight, equals-only React calculator using a small state model. It supports digits, + − × ÷, decimals, percent, sign toggle, AC, and backspace. Input builds into num, the pending operator lives in sign, and the result accumulates in res; evaluation occurs only on = for simple, predictable behavior. The display shows the current entry or the running result, and the operator can be changed before entering the next number.
